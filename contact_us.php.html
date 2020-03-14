@@ -68,7 +68,7 @@
                 <li class="five"><a href="automatic.php">Automization</a></li>
                 <li class="six"><a href="global_presence.php">Global presence</a></li>
             </ul>
-            <div class="content_header"><a href="mailto:info@ambicamedicare.com">info@ambicamedicare.com</a></div>
+            <div class="content_header"><a href="mailto:info@info@ambicasterilizer.in">info@ambicasterilizer.in</a></div>
         </div>
         <div id="logo"><a href="index.php"><img src="images/logo.png" alt="Ambica Sterilizer" /></a></div>
         <div class="top-right">
@@ -105,7 +105,7 @@
         <tr bgcolor="#F8F8F8"><td valign="top">MR: JASHVANT R PANCHAL</td><td>09426009872</td></tr>
         <tr bgcolor="#F8F8F8"><td valign="top">MR: AMIT J PANCHAL</td><td>09998716586</td></tr>
         <tr bgcolor="#F8F8F8"><td valign="top">MR: JIGAR J PANCHAL</td><td>09586617987</td></tr>
-        <tr bgcolor="#F8F8F8"><td valign="top">(o):079-25856820</td><td>Email:Ambicamedicare@yahoo.co.in</td></tr>
+        <tr bgcolor="#F8F8F8"><td valign="top">(o):079-25856820</td><td>Emails: <br>ambicamedicare@yahoo.co.in<br>ambicasterilizers@gmail.com<br>info@ambicasterilizer.in</td></tr>
         </tbody>
     </table>
     <br />
@@ -115,7 +115,7 @@
             <tr bgcolor="#F8F8F8"><td valign="top">Plot No. 362, B/h Om Shant School, Nr Shakriba Party Plot, Amraiwadi Road, National Highway,Ahmedabad-380 026</td><td valign="top">8, Hari Om Estate, CTM Cross Road, Amraiwadi, Ahmedabad-380 026, Gujarat</td></tr>
             <tr bgcolor="#F8F8F8"><td>079-25856820</td><td>079-25856820</td></tr>
             <tr bgcolor="#F8F8F8"><td>+91 9426009872</td><td>+91 9998716586</td></tr>
-            <tr bgcolor="#F8F8F8"><td>info@ambicamedicare.com</td><td>info@ambicamedicare.com</td></tr>
+            <tr bgcolor="#F8F8F8"><td>info@ambicasterilizer.in</td><td>info@ambicasterilizer.in</td></tr>
         </tbody>
     </table>
     
@@ -173,7 +173,6 @@
 <div class="cl"></div>
 </div>
 
-
 <div id="footer">
     <div class="wrapper">
         <div class="fo1">
@@ -185,8 +184,6 @@
                 <li><a href="our-clients.php">Our Clients</a></li>
                 <li><a href="contact_us.php">Contact Us </a></li>
                 <li><a href="inquiry.php">Inquiry</a></li>
-
-
 
 
             </ul>
@@ -217,51 +214,68 @@
 
         <div class="fo3">
             <h2>Quick Inquiry</h2>
-            <script language="javascript" type="text/javascript" >
-                function validate_qform(){
-                    if(document.form_qenq.qname.value==''){
+            <script language="javascript" type="text/javascript">
+                function validate_qform() {
+                    if (document.form_qenq.name.value == '') {
                         alert('Please enter Name');
-                        document.form_qenq.qname.focus();
+                        document.form_qenq.name.focus();
                         return false;
                     }
-                    if(document.form_qenq.qemail.value==''){
+                    if (document.form_qenq.email.value == '') {
                         alert('Please enter E-mail');
-                        document.form_qenq.qemail.focus();
+                        document.form_qenq.email.focus();
                         return false;
                     }
-                    if(document.form_qenq.qemail.value.length!=0)
-                    {
-                        var str=document.form_qenq.qemail.value
-                        var filter=/^.+@.+\..{2,3}$/
-                        if (filter.test(str)){
-                        }else{
+                    if (document.form_qenq.email.value.length != 0) {
+                        var str = document.form_qenq.email.value
+                        var filter = /^.+@.+\..{2,3}$/
+                        if (filter.test(str)) {
+                        } else {
                             alert("Please enter valid E-mail address");
-                            document.form_qenq.qemail.focus();
+                            document.form_qenq.email.focus();
                             return false;
                         }
                     }
-                    if(document.form_qenq.qphone.value==''){
+                    if (document.form_qenq.phone.value == '') {
                         alert('Please enter Phone');
-                        document.form_qenq.qphone.focus();
+                        document.form_qenq.phone.focus();
                         return false;
                     }
-                    if(document.form_qenq.qmessage.value==''){
+                    if (document.form_qenq.message.value == '') {
                         alert('Please enter Message');
-                        document.form_qenq.qmessage.focus();
+                        document.form_qenq.message.focus();
                         return false;
                     }
                 }
             </script>
-            <form action="thankyou.php" method="POST" name="form_qenq">
-                <div class="left">  <div class="in1"><input name="qname" type="text" value="Name" onblur="if(this.value=='')this.value=this.defaultValue;" onfocus="if(this.value==this.defaultValue)this.value='';"  /></div>
-                    <div class="in1"><input name="qemail" type="text" value="Email" onblur="if(this.value=='')this.value=this.defaultValue;" onfocus="if(this.value==this.defaultValue)this.value='';"  /></div>
-                    <div class="in1"><input name="qphone" type="text" value="Phone" onblur="if(this.value=='')this.value=this.defaultValue;" onfocus="if(this.value==this.defaultValue)this.value='';" /></div></div>
+            <form action="https://formspree.io/mnqzjzya" method="POST" name="form_qenq">
+                <div class="left">
+                    <div class="in1">
+                        <input name="name" type="text" value="Name"
+                               onblur="if(this.value=='')this.value=this.defaultValue;"
+                               onfocus="if(this.value==this.defaultValue)this.value='';"/>
+                    </div>
+                    <div class="in1">
+                        <input name="email" type="text" value="Email"
+                               onblur="if(this.value=='')this.value=this.defaultValue;"
+                               onfocus="if(this.value==this.defaultValue)this.value='';"/>
+                    </div>
+                    <div class="in1">
+                        <input name="phone" type="text" value="Phone"
+                               onblur="if(this.value=='')this.value=this.defaultValue;"
+                               onfocus="if(this.value==this.defaultValue)this.value='';"/>
+                    </div>
+                </div>
 
                 <div class="right">
-                    <div class="in2"><textarea name="qmessage" cols="" rows="" onblur="if(this.value=='')this.value=this.defaultValue;" onfocus="if(this.value==this.defaultValue)this.value='';" style="resize: none;">Comment</textarea></div>
+                    <div class="in2"><textarea name="message" cols="" rows=""
+                                               onblur="if(this.value=='')this.value=this.defaultValue;"
+                                               onfocus="if(this.value==this.defaultValue)this.value='';"
+                                               style="resize: none;">Comment</textarea>
+                    </div>
                     <div class="in3">
-                        <input type="hidden" name="sub_task" value="quick_inq" />
-                        <input name="" type="image" src="images/sub-btn.png" onclick="return validate_qform();" /></div>
+                        <input name="" type="image" src="images/sub-btn.png" onclick="return validate_qform();"/>
+                    </div>
 
                 </div>
 
@@ -275,16 +289,17 @@
 
 <div id="footer-bt">
     <div class="wrapper">
-        <div class="carti"> <img src="images/carti-img.png" alt="" /> <img src="images/carti-img1.png" alt="" /></div>
+        <div class="carti"><img src="images/carti-img.png" alt=""/> <img src="images/carti-img1.png" alt=""/></div>
         <div class="social">
-            <a href="#"><img src="images/icon1.png" alt="" /></a>
-            <a href="#"><img src="images/icon2.png" alt="" /></a>
-            <a href="#"><img src="images/icon3.png" alt="" /></a>
-            <a href="#"><img src="images/icon4.png" alt="" /></a>
+            <a href="#"><img src="images/icon1.png" alt=""/></a>
+            <a href="#"><img src="images/icon2.png" alt=""/></a>
+            <a href="#"><img src="images/icon3.png" alt=""/></a>
+            <a href="#"><img src="images/icon4.png" alt=""/></a>
         </div>
 
         <div class="copy"> &copy; Ambica Medicare Engineering 2020. All Rights Reserved.</div>
-        <div class="copy1"><span>Design & Developed By</span> <a href="http://www.harshadkavathiya.com" target="__blank">Harshad Kavathiya</a></div>
+        <div class="copy1"><span>Design & Developed By</span> <a href="http://www.harshadkavathiya.com"
+                                                                 target="__blank">Harshad Kavathiya</a></div>
     </div>
 </div>
 
@@ -292,14 +307,14 @@
 <!-- This of course is required. The full version (not .min) is also included in the js directory -->
 <script type="text/javascript" language="jascript" src="js/jquery.coda-slider-3.0.min.js"></script>
 <script type="text/javascript" language="jascript">
-    $(function(){
+    $(function () {
         /* Here is the slider using default settings  $('#slider-id').codaSlider(); */
         /* If you want to adjust the settings, you set an option
            as follows:    */
 
         $('#slider-id').codaSlider({
-            autoSlide:true,
-            autoHeight:false
+            autoSlide: true,
+            autoHeight: false
         });
     });
 </script>
