@@ -79,7 +79,7 @@ input, select, textarea{ outline:none;}
 .top-right{ float:right;  margin-top: 29px;}
 ul.nav{ margin:0px; padding:0px;}
 ul.nav li{ list-style:none; float:left; border-left:#1a2b49 solid 1px; padding:0 5px; }
-ul.nav li a{ font-family:'Helvetica_Light-Normal', 'Open Sans'; font-size:15px; color:#fff; text-transform:uppercase; display:block; padding:5px 25px;}
+ul.nav li a{ font-family:'Helvetica_Light-Normal', 'Open Sans'; font-size:15px; color:#fff; text-transform:uppercase; display:block; padding:5px 24px;}
 ul.nav li:first-child{ border-left:none;}
 ul.nav li.current a{ background:#7bb3d9;}
 ul.nav li.current a:hover{ background:#7bb3d9;}
@@ -215,3 +215,21 @@ ul#foo5 li img{ height: 197px; }
 .logo_content{ position: relative; left: 76px; top:-100px; }
 ul#logo_rotate li { float: left; list-style: none;  }
 ul#logo_rotate li img{ padding-left: 10px; height: 92px; width: 189px; }
+
+#photos {
+    /* Prevent vertical gaps */
+    line-height: 0;
+
+    -webkit-column-count: 5;
+    -webkit-column-gap:   0px;
+    -moz-column-count:    5;
+    -moz-column-gap:      0px;
+    column-count:         5;
+    column-gap:           0px;
+}
+
+#photos img {
+    /* Just in case there are inline attributes */
+    width: 100% !important;
+    height: auto !important;
+}
