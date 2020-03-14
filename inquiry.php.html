@@ -152,14 +152,14 @@
         }
     }
     </script>
-    <form method="post" name="form_inquiry" action="https://formspree.io/mnqzjzya" >
+    <form method="post" name="form_inquiry" action="https://getform.io/f/f6d766b8-a5e6-41d9-811e-d3af8f39d942" >
         <div class="inq_raw">
             <label for="company_name">Company Name: </label>
-            <input type="text" name="company_name" id="company_name" class="input_inq" >
+            <input type="text" name="Company" id="company_name" class="input_inq" >
         </div>
 		<div class="inq_raw">
             <label for="contact_person">Contact Person: </label>
-            <input type="text" name="contact_person" id="contact_person" class="input_inq" >
+            <input type="text" name="name" id="contact_person" class="input_inq" >
         </div>
         <div class="inq_raw">
             <label for="address">Address: </label>
@@ -188,18 +188,18 @@
         <div class="">
             <label for="city">Products: </label>
         </div>
-        <div class="pad106"><label><input type="checkbox" name="products[]" value="ETO_Sterlizer" id="ETO_Sterlizer" /> ETO Sterilizer</label></div>
-        <div class="pad106"><label><input type="checkbox" name="products[]" value="ETO_Scrubber" id="ETO_Scrubber" /> ETO Scrubber</label></div>
-        <div class="pad106"><label><input type="checkbox" name="products[]" value="Steam_sterilizer" id="Hospital_Sterilizer" /> Steam Sterilizer</label></div>
-        <div class="pad106"><label><input type="checkbox" name="products[]" value="Hospital_Sterilizer" id="Hospital_Sterilizer" /> Hospital Sterilizer</label></div>
-        <div class="pad106"><label><input type="checkbox" name="products[]" value="Dry_heat_sterilizer" id="Hospital_Sterilizer" /> Dry heat Sterilizer</label></div>
-        <div class="pad106"><label><input type="checkbox" name="products[]" value="Multi_column_plant" id="Hospital_Sterilizer" /> Multi column plant</label></div>
-        <div class="pad106"><label><input type="checkbox" name="products[]" value="Bung_processor" id="Bung_processor" /> Bung processor</label></div>
-        <div class="pad106"><label><input type="checkbox" name="products[]" value="Water_spray" id="Water_spray" /> Water spray</label></div>
-        <div class="pad106"><label><input type="checkbox" name="products[]" value="Pure_staem_generator" id="Pure_staem_generator" /> Pure steam generator</label></div>
-        <div class="pad106"><label><input type="checkbox" name="products[]" value="Pharmaceutical_tunnel" id="Pharmaceutical_tunnel" /> Pharmaceuticals tunnel</label></div>
-        <div class="pad106"><label><input type="checkbox" name="products[]" value="Food_sterilizer" id="Food_sterilizer" /> Food sterilizer</label></div>
-        <div class="pad106"><label><input type="checkbox" name="products[]" value="Plant_controlling_system" id="Plant_controlling_system" /> Plant Controlling System</label></div>
+        <div class="pad106"><label><input type="checkbox" name="products[]" value="ETO Sterlizer" id="ETO Sterlizer" /> ETO Sterilizer</label></div>
+        <div class="pad106"><label><input type="checkbox" name="products[]" value="ETO Scrubber" id="ETO Scrubber" /> ETO Scrubber</label></div>
+        <div class="pad106"><label><input type="checkbox" name="products[]" value="Steam sterilizer" id="Hospital Sterilizer" /> Steam Sterilizer</label></div>
+        <div class="pad106"><label><input type="checkbox" name="products[]" value="Hospital Sterilizer" id="Hospital Sterilizer" /> Hospital Sterilizer</label></div>
+        <div class="pad106"><label><input type="checkbox" name="products[]" value="Dry heat sterilizer" id="Hospital Sterilizer" /> Dry heat Sterilizer</label></div>
+        <div class="pad106"><label><input type="checkbox" name="products[]" value="Multi column plant" id="Hospital Sterilizer" /> Multi column plant</label></div>
+        <div class="pad106"><label><input type="checkbox" name="products[]" value="Bung processor" id="Bung processor" /> Bung processor</label></div>
+        <div class="pad106"><label><input type="checkbox" name="products[]" value="Water spray" id="Water spray" /> Water spray</label></div>
+        <div class="pad106"><label><input type="checkbox" name="products[]" value="Pure steam generator" id="Pure staem generator" /> Pure steam generator</label></div>
+        <div class="pad106"><label><input type="checkbox" name="products[]" value="Pharmaceutical tunnel" id="Pharmaceutical tunnel" /> Pharmaceuticals tunnel</label></div>
+        <div class="pad106"><label><input type="checkbox" name="products[]" value="Food sterilizer" id="Food sterilizer" /> Food sterilizer</label></div>
+        <div class="pad106"><label><input type="checkbox" name="products[]" value="Plant Controlling System" id="Plant controlling system" /> Plant Controlling System</label></div>
         <div class="inq_raw">
             <label>&nbsp; </label>
 <!--            <input type="hidden" name="sub_task" value="sub_inq" />-->
@@ -335,7 +335,7 @@
                     }
                 }
             </script>
-            <form action="https://formspree.io/mnqzjzya" method="POST" name="form_qenq">
+            <form action="https://getform.io/f/f6d766b8-a5e6-41d9-811e-d3af8f39d942" method="POST" name="form_qenq">
                 <div class="left">
                     <div class="in1">
                         <input name="name" type="text" value="Name"
@@ -361,7 +361,11 @@
                                                style="resize: none;">Comment</textarea>
                     </div>
                     <div class="in3">
-                        <input name="" type="image" src="images/sub-btn.png" onclick="return validate_qform();"/>
+<!--                        <input name="" type="image" src="images/sub-btn.png" onclick="return validate_qform();"/>-->
+
+                        <input type="submit" id="submit" value="" onclick="return validate_qform();"
+                               style="background-image: url(/images/sub-btn.png); border: solid 0px #000000; width: 175px; height: 35px;" />
+
                     </div>
 
                 </div>
