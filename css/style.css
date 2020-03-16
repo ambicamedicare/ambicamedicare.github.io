@@ -220,12 +220,12 @@ ul#logo_rotate li img{ padding-left: 10px; height: 92px; width: 189px; }
     /* Prevent vertical gaps */
     line-height: 0;
 
-    -webkit-column-count: 5;
-    -webkit-column-gap:   0px;
-    -moz-column-count:    5;
-    -moz-column-gap:      0px;
-    column-count:         5;
-    column-gap:           0px;
+    -webkit-column-count: 3;
+    -webkit-column-gap:   20px;
+    -moz-column-count:    3;
+    -moz-column-gap:      20px;
+    column-count:         3;
+    column-gap:           20px;
 }
 
 #photos img {
